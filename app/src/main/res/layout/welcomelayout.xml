@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_color_welcom">
+    <ImageView
+        android:layout_height="60px"
+        android:layout_width="0px"
+        android:src="@mipmap/welcomeimage"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="172dp"
+        android:id="@+id/MySign"/>
+    </RelativeLayout>
+</LinearLayout>

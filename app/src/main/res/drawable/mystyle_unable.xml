@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#000000"
+        android:endColor="#000000"
+        android:angle="0"/>
+        <solid android:color="#bbbbbb" /><!-- 背景填充颜色 -->  
+        <stroke android:width="0.5dp" android:color="#ff000000" /><!-- 描边，边框宽度、颜色 -->  
+        <corners android:radius="10dp" /><!-- 边角圆弧的半径 -->  
+        <padding android:left="0dp" android:top="3dp" android:right="0dp" android:bottom="3dp" /><!-- 四周留出来的空白 -->  
+</shape>

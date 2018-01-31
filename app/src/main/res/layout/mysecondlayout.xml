@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/second">
+    <!--android:background="@mipmap/bground"-->
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_weight=".90"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="28dp">
+        <include layout="@layout/layout_titlebar"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight=".10"
+        android:background="@android:color/transparent">
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:background="#11000000"
+            android:gravity="center"
+            android:text="播放音乐"
+            android:textSize="25px"
+            android:id="@+id/Button_temp" />
+        <!--
+        尝试对推荐图片的Srcoll的形式展现
+        !-->
+        <RelativeLayout
+            android:layout_below="@+id/Button_temp"
+            android:layout_height="200dp"
+            android:layout_width="match_parent">
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            </ImageView>
+            <ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/click_1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/radio_button_off"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:id="@+id/click_2"
+                android:layout_toRightOf="@id/click_1"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/radio_button_off" />
+            <ImageView
+                android:id="@+id/click_3"
+                android:layout_toRightOf="@id/click_2"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/radio_button_off" />
+            <ImageView
+                android:id="@+id/click_4"
+                android:layout_toLeftOf="@id/click_1"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/radio_button_off" />
+            <ImageView
+                android:id="@+id/click_5"
+                android:layout_toLeftOf="@id/click_4"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/radio_button_off" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

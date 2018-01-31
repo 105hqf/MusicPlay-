@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:background="#33000000"
+    >
+
+    <Button
+        android:id="@+id/searchmusic_bar"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@mipmap/findmusic"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="胡歌专属"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@mipmap/setting"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

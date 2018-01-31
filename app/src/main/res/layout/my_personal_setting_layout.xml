@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bground"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+        <LinearLayout
+            android:layout_marginTop="28dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight=".10"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:text="@string/Mysettingtitle"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:drawableRight="@mipmap/settingfinial" />
+            <Button
+                android:id="@+id/Login"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:text="登录"
+                android:drawableTop="@mipmap/user_setting"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="    我的信息"
+                android:textSize="15dp"
+                android:drawableRight="@mipmap/go_in"
+                android:id="@+id/userMassage"/>
+        </LinearLayout>
+</LinearLayout>

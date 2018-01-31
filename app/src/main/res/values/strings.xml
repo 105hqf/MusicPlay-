@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyMusicPlayer</string>
+    <string name="Mybutton">Mybutton</string>
+    <string name="MyColor">请自定义选择颜色</string>
+    <string name="Mylastsong">上一首</string>
+    <string name="Mynextsong">下一首</string>
+    <string name="Mysettingtitle">我的账号</string>
+    <string name="Login_forPhoneNumber">用户登录</string>
+    <string name="Sign_Up">注册</string>
+    <string name="SendVC">发送验证码</string>
+</resources>
